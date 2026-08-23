@@ -1,0 +1,31 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+out/
+bin/
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# VS Code: ignore only clearly local files.
+.vscode/.history/
+.vscode/*.log
+.vscode/settings.local.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
