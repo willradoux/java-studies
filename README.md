@@ -33,6 +33,11 @@ As pastas numeradas representam a trilha principal de estudos, organizada de for
 * `projetos/`: pequenos projetos desenvolvidos durante os estudos.
 * `ucsal/`: materiais diretamente relacionados à graduação, separados entre aulas e atividades.
 
+## Guias de estudo
+
+* [Exercícios de lógica em Java](01-logica/exercicios/README.md)
+* [Fluxo de estudo com Git](docs/fluxo-de-estudo.md)
+
 ## UCSAL
 
 A pasta `ucsal/` concentra apenas conteúdos diretamente ligados à faculdade.
