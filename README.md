@@ -35,8 +35,13 @@ As pastas numeradas representam a trilha principal de estudos, organizada de for
 
 ## Guias de estudo
 
+* [Trilha de estudos](docs/trilha-de-estudos.md)
+* [Como estudar](docs/como-estudar.md)
+* [Exercícios diários](docs/exercicios-diarios.md)
+* [Banco de exercícios](docs/banco-de-exercicios.md)
 * [Exercícios de lógica em Java](01-logica/exercicios/README.md)
 * [Fluxo de estudo com Git](docs/fluxo-de-estudo.md)
+* [Dashboard de progresso](docs/dashboard-progresso.md)
 
 ## UCSAL
 

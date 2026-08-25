@@ -4,6 +4,12 @@ Lista inicial de exercícios para praticar lógica de programação usando Java 
 
 Estes exercícios foram organizados para treinar raciocínio passo a passo, começando por operações simples e avançando para condicionais, loops e métodos.
 
+Para um plano mais completo, use também:
+
+* [Exercícios diários](../../docs/exercicios-diarios.md)
+* [Banco de exercícios](../../docs/banco-de-exercicios.md)
+* [Como estudar](../../docs/como-estudar.md)
+
 ## Como resolver
 
 Resolva um exercício por branch e por pull request.
@@ -180,4 +186,3 @@ Antes de abrir o pull request, confira:
 * existe pelo menos um exemplo de entrada e saída;
 * o exercício resolvido está na pasta correta;
 * o PR altera apenas o exercício proposto.
-
