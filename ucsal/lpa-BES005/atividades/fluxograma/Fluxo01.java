@@ -1,3 +1,5 @@
+// Calcule a media de 3 notas e retorne o resultado
+
 public class Fluxo01 {
     public static double solution(
             double averange1,
