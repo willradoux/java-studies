@@ -1,82 +1,52 @@
 # Java Studies
 
-Repositório dedicado aos meus estudos e à minha evolução com Java.
-
-O projeto começou durante minha graduação em Engenharia de Software na UCSAL, mas também reúne estudos independentes, exercícios, desafios e pequenos projetos para evoluir em Java de forma organizada.
+Repositório para organizar meus estudos e entregas da graduação na **UCSAL**, principalmente atividades, PDFs, códigos e fluxogramas das disciplinas.
 
 ## Objetivo
 
-Construir uma base forte em programação, lógica, Java, POO, estruturas de dados e frameworks do ecossistema Java, registrando a evolução com clareza.
+Manter os materiais da faculdade organizados por disciplina, separando aulas, atividades, códigos e arquivos de entrega.
 
 ## Estrutura
 
 ```text
 java-studies/
-  docs/          guias de organização, rotina e padrões do repo
-  trilhas/       ordem sugerida de estudos por tema
-  exercicios/    bancos de exercícios sem resposta pronta
-  java-lab/      laboratório Java com estrutura Maven/JUnit
-  ucsal/         conteúdos da faculdade
-  rascunhos/     testes soltos antes de virarem estudo organizado
+  ucsal/
+    README.md
+    lpa-BES005/
+      README.md
+      aulas/
+      atividades/
 ```
 
-## Caminho inicial
+## Disciplina atual
 
-1. Rever lógica básica com os exercícios da UCSAL.
-2. Estudar POO com bastante prática: classes, objetos, encapsulamento, composição, herança, polimorfismo e interfaces.
-3. Entrar em estruturas de dados usando primeiro a biblioteca padrão do Java e depois implementações próprias.
-4. Aprender testes com JUnit e AssertJ.
-5. Avançar para frameworks: Maven, Spring Boot, APIs REST, JPA/Hibernate e validação.
+* [LPA/BES005 - Lógica de Programação e Algoritmos](ucsal/lpa-BES005/README.md)
 
-## Onde estudar
+## Organização das atividades
 
-* [Guia de estudo](docs/guia-de-estudo.md)
-* [Organização do repositório](docs/organizacao-do-repositorio.md)
-* [Trilha de POO](trilhas/01-poo.md)
-* [Trilha de estruturas de dados](trilhas/02-estruturas-de-dados.md)
-* [Trilha de frameworks Java](trilhas/03-frameworks-java.md)
-* [Exercícios de POO](exercicios/poo.md)
-* [Exercícios de estruturas de dados](exercicios/estruturas-de-dados.md)
-* [Exercícios de frameworks Java](exercicios/frameworks-java.md)
-* [Projetos práticos](exercicios/projetos-praticos.md)
+Cada atividade deve ficar dentro da disciplina correspondente.
 
-## Java lab
-
-A pasta `java-lab/` é o espaço para praticar Java com estrutura de projeto real.
-
-Sem Maven instalado:
-
-```bash
-javac -d java-lab/out java-lab/src/main/java/br/com/willradoux/javastudies/App.java
-java -cp java-lab/out br.com.willradoux.javastudies.App
+```text
+ucsal/lpa-BES005/atividades/
+  ex01-media-aritmetica/
+    README.md
+    codigo/
+    fluxograma/
 ```
 
-Com Maven instalado:
+Use:
 
-```bash
-cd java-lab
-mvn test
-```
-
-## UCSAL
-
-A pasta `ucsal/` concentra apenas conteúdos diretamente ligados à faculdade. O PDF da aula de fluxograma e os exercícios extraídos dele ficam dentro da disciplina `lpa-BES005`.
-
-## Filosofia
-
-Este repositório funciona como um registro contínuo da minha evolução em programação. Os códigos representam diferentes etapas do aprendizado e podem ser refatorados ou revisitados conforme meus conhecimentos avançarem.
-
-O objetivo não é apenas guardar código pronto, mas acompanhar o processo: tentar, errar, corrigir, refatorar e explicar melhor depois.
+* `aulas/` para PDFs e materiais da disciplina;
+* `atividades/` para exercícios, trabalhos e entregas;
+* `codigo/` para arquivos `.java`;
+* `fluxograma/` para imagens, PDFs ou arquivos da ferramenta usada no fluxograma.
 
 ## Commits
 
-As mensagens de commit devem ser simples e descritivas:
+Use commits pequenos e descritivos:
 
 ```bash
-study: practice conditional statements
 study: solve LPA exercise 01
-study: practice object composition
-feat: add fibonacci challenge
-fix: correct loop condition
-docs: add data structures exercise bank
+docs: organize LPA activities
+fix: correct average calculation
 ```
